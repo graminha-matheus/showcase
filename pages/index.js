@@ -36,28 +36,28 @@ export default function Home() {
 
         <div className="grid">
           
-          <a href="https://linktr.ee/matheusgraminha" className="card">
+          <a href="https://linktr.ee/matheusgraminha" target="_blank" className="card">
             <MdAccountCircle/>
             <h3>Socials</h3>
             <p>Follow me on all my social media!</p>
           </a>
 
-          <a href="https://github.com/graminha-matheus" className="card">
+          <a href="https://github.com/graminha-matheus" target="_blank"className="card">
             <AiFillGithub/>
             <h3>My GitHub </h3>
             <p>Take a peek at <br /> my projects!</p>
           </a>
 
-          <a href="https://linktr.ee/matheusgraminha" className="card">
+          <a href="https://linktr.ee/matheusgraminha" target="_blank" className="card">
             <MdEmail/>
             <h3>E-Mail</h3>
             <p>Any questions, suggestions? Click here to contact me!</p>
           </a>
 
-          <a href="https://linktr.ee/matheusgraminha" className="card">
+          <a href="https://linktr.ee/matheusgraminha" target="_blank" className="card">
             <BsFillStarFill/>
             <h3>Other stuff</h3>
-            <p>Personal projects, hobbies and personal favorites!</p>
+            <p>Personal projects, hobbies and favorite stuff!</p>
           </a>
 
         </div>

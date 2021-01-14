@@ -29,6 +29,7 @@ div main span {
   padding: 15px;
   font-weight: bolder;
   transition: 0.3s;
+  cursor:default;
 }
 
 div main span:hover {
@@ -53,6 +54,7 @@ div button {
 div button:hover {
   transition: 0.3s;
   color: white;
+  cursor:pointer;
 }
 
 .me {
@@ -68,6 +70,7 @@ div button:hover {
   color: rgb(255, 255, 255);
   transition: 0.3s;
   background-color: rgba(0, 0, 0, 0.404);
+  cursor:pointer;
 }
 
 .main {
@@ -163,11 +166,11 @@ code {
 }
 
 .card:hover,
-.card:focus,
 .card:active {
   color: white;
   transition: 0.3s;
   background-color: rgba(0, 0, 0, 0.404);
+  cursor:pointer;
 
 }
 
