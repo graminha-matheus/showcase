@@ -22,42 +22,42 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
   
-      <img src="/meno.png" className="me" onClick={toggleDarkMode}></img>
+      <img src="/meno.png" className="me"></img>
 
       <main className = "main">
-      <button onClick={toggleDarkMode}><CgDarkMode size="20"/></button>
-        <h2>
+      {/* <button onClick={toggleDarkMode}><CgDarkMode size="20"/></button> */}
+        <h1>
         Matheus Graminha Moreli
-        </h2>
-
-        <span className = "Job">
-        {"<Web Developer/>"}
+        </h1>
+        <br />
+        <span className = "Job" onClick={toggleDarkMode}>
+       
         </span>
 
         <div className="grid">
           
-          <a href="https://linktr.ee/matheusgraminha" target="_blank" className="card">
+          <a className="socialsc" href="https://linktr.ee/matheusgraminha" target="_blank" className="card">
             <MdAccountCircle/>
             <h3>Socials</h3>
             <p>Follow me on all my social media!</p>
           </a>
 
-          <a href="https://github.com/graminha-matheus" target="_blank"className="card">
+          <a className="githubc" href="https://github.com/graminha-matheus" target="_blank"className="card">
             <AiFillGithub/>
-            <h3>My GitHub </h3>
-            <p>Take a peek at <br /> my projects!</p>
+            <h3>GitHub </h3>
+            <p>Take a peek at <br /> my repos!</p>
           </a>
 
-          <a href="https://linktr.ee/matheusgraminha" target="_blank" className="card">
+          <a className="emailc" href="mailto:matheus.g.moreli@gmail.com" target="_blank" className="card">
             <MdEmail/>
-            <h3>E-Mail</h3>
-            <p>Any questions, suggestions? Click here to contact me!</p>
+            <h3>Get in Touch</h3>
+            <p>Click here to send me an email!</p>
           </a>
 
-          <a href="https://linktr.ee/matheusgraminha" target="_blank" className="card">
+          <a className="othersc" href="https://linktr.ee/matheusgraminha" target="_blank" className="card">
             <BsFillStarFill/>
-            <h3>Other stuff</h3>
-            <p>Personal projects, hobbies and favorite stuff!</p>
+            <h3>Curriculum</h3>
+            <p>A brief view on my accomplishments!</p>
           </a>
 
         </div>

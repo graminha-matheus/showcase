@@ -1,5 +1,5 @@
 {
-  "name": "learn-starter",
+  "name": "portfolio",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -13,5 +13,8 @@
     "react": "17.0.1",
     "react-dom": "17.0.1",
     "react-icons": "^4.1.0"
+  },
+  "engines": {
+    "node": "10.19.0"
   }
 }

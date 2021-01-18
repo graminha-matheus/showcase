@@ -23,20 +23,26 @@ code {
   border: 3px solid black;
 }
 
-div main span {
+div main span::after {
   border: 3px solid black;
   font-size: large;
   padding: 15px;
   font-weight: bolder;
   transition: 0.3s;
   cursor:default;
+  content: '<Front-End Developer/>';
+
 }
 
-div main span:hover {
+div main span:hover::after {
   color: rgb(255, 255, 255);
   transition: 0.3s;
   background-color: rgba(0, 0, 0, 0.404);
+  content: ' { Toggle Dark Mode } ';
+  padding: 15px;
+  cursor: pointer;
 }
+
 
 div button {
   padding: 5px;
@@ -70,7 +76,6 @@ div button:hover {
   color: rgb(255, 255, 255);
   transition: 0.3s;
   background-color: rgba(0, 0, 0, 0.404);
-  cursor:pointer;
 }
 
 .main {
